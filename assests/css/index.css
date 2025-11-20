@@ -227,13 +227,13 @@
 }
 
 .services .services-content:hover {
-    box-shadow: 0px 0px 15px 0px #646464;
-    transition: 1s ease-out;
+    box-shadow: 0px 0px 15px #646464;
     border: 6px solid transparent;
     border-image: url(../img/home/6.png) 30 round;
-    border: 5px solid rgb(51, 49, 49);
+    /* border: 5px solid rgb(51, 49, 49); */
     border-radius: 10px;
-    transform: translate(10px, 10px);
+    transform: translateY(-8px);
+    transition: 1s ease-out;
 }
 
 .services .services-content .services-icon .icon-new {
@@ -345,7 +345,7 @@
 .how-we-do .how-we-do-content-section .how-we-do-content .how-we-do-image img {
     height: 45px;
     width: 45px;
-    border: 2px solid #000000;
+    border: 2px solid #939393;
     border-radius: 50%;
 }
 
@@ -354,9 +354,167 @@
     font-weight: 600;
     padding-left: 15px;
     font-size: 15px;
+    transition: 0.5s ease-in;
+}
+
+.how-we-do .how-we-do-content-section .how-we-do-content .how-we-do-title a:hover {
+    color: #0000FF;
+    transition: 0.5s ease-out;
+}
+
+.how-we-do .View-all-industries a {
+    color: #0000ff;
+    font-weight: 500;
+    position: relative;
+    transition: 0.5s ease-in;
+}
+
+.how-we-do .View-all-industries a::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    transition: 1s;
+    background: #d5d8ff;
+}
+
+.how-we-do .View-all-industries a:hover {
+    color: #000000 !important;
+    transition: 1s ease-in-out;
+}
+
+.how-we-do .View-all-industries a::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    transition: 1s;
+    background: #0000ff;
+}
+
+.how-we-do .View-all-industries a:hover::before {
+    width: 100%;
+}
+
+.how-we-do .View-all-industries a:hover::after {
+    width: 0%;
 }
 
 /* ========================= /HOW-WE-DO css section end ========================= */
+
+/* ========================= Solutions section start ========================= */
+.solutions {
+    background: #ffffff;
+}
+
+.solutions .solutions-subtitle p {
+    padding: 5px 9px 5px 9px;
+    width: max-content;
+    border: 1px solid #5F6567;
+    border-radius: 4px;
+    color: #F5F5F5;
+    background: #5F6567;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+    word-spacing: 0em;
+
+}
+
+.solutions .solutions-subtitle h3 {
+    color: #0A0D31;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.solutions .solutions-box-content {
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    padding: 22px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    transition: transform .28s ease, box-shadow .28s ease;
+}
+
+.solutions .solutions-box-content:focus,
+.solutions .solutions-box-content:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 30px rgba(12, 24, 48, 0.12);
+}
+
+.solutions .solutions-box-content .solutions-icon .icon-new {
+    color: #0000ff;
+    font-size: 28px;
+    background: linear-gradient(135deg, rgba(11, 115, 255, 0.08), rgba(11, 115, 255, 0.02));
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+.solutions .solutions-box-content .solutions-title h3 {
+    text-align: center;
+    font-size: 25px;
+    color: #0f1724;
+}
+
+.solutions .solutions-box-content .solutions-description p {
+    word-spacing: 3px;
+    letter-spacing: 0.3px;
+}
+
+.solutions .solutions-box-last-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
+
+/* ========================= /Solutions css section end ========================= */
+
+/* ========================= stories section start ========================= */
+.stories {
+    background: #ffffff;
+}
+
+.stories .stories-subtitle p {
+    padding: 5px 9px 5px 9px;
+    width: max-content;
+    border: 1px solid #5F6567;
+    border-radius: 4px;
+    color: #F5F5F5;
+    background: #5F6567;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+    word-spacing: 0em;
+
+}
+
+.stories .stories-subtitle h3 {
+    color: #0A0D31;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* ========================= /stories css section end ========================= */
 
 
 

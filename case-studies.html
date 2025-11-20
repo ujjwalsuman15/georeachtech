@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- SOLUTIONS SECTION -->
+    <section id="solutions" aria-labelledby="solutions-heading" class="solutions-section">
+        <div class="container">
+            <header class="solutions-header">
+                <p class="eyebrow">Our Expertise</p>
+                <h2 id="solutions-heading">Coding Solutions</h2>
+                <p class="lead">Custom web & mobile development, scalable backend systems, and automation to accelerate
+                    your product.</p>
+            </header>
+
+            <div class="solutions-grid" role="list">
+                <!-- Card 1 -->
+                <article class="solution-card" role="listitem" tabindex="0" aria-labelledby="s1-title">
+                    <div class="icon" aria-hidden="true">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3 id="s1-title" class="solution-title">Custom Web Apps</h3>
+                    <p class="solution-excerpt">Responsive, SEO-friendly web applications using modern stacks (React /
+                        Next / Node).</p>
+                    <button class="btn-details" data-solution="1" aria-controls="modal" aria-expanded="false">Read
+                        more</button>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="solution-card" role="listitem" tabindex="0" aria-labelledby="s2-title">
+                    <div class="icon" aria-hidden="true">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <h3 id="s2-title" class="solution-title">Mobile Apps</h3>
+                    <p class="solution-excerpt">Native & cross-platform apps with smooth UX and offline support.</p>
+                    <button class="btn-details" data-solution="2" aria-controls="modal" aria-expanded="false">Read
+                        more</button>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="solution-card" role="listitem" tabindex="0" aria-labelledby="s3-title">
+                    <div class="icon" aria-hidden="true">
+                        <i class="fa-solid fa-server"></i>
+                    </div>
+                    <h3 id="s3-title" class="solution-title">Cloud & Backend</h3>
+                    <p class="solution-excerpt">Scalable microservices, CI/CD, and cloud infra (AWS / GCP / Azure).</p>
+                    <button class="btn-details" data-solution="3" aria-controls="modal" aria-expanded="false">Read
+                        more</button>
+                </article>
+
+                <!-- Card 4 -->
+                <article class="solution-card" role="listitem" tabindex="0" aria-labelledby="s4-title">
+                    <div class="icon" aria-hidden="true">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <h3 id="s4-title" class="solution-title">Automation & AI</h3>
+                    <p class="solution-excerpt">Automation, data pipelines, ML prototypes to optimize workflows.</p>
+                    <button class="btn-details" data-solution="4" aria-controls="modal" aria-expanded="false">Read
+                        more</button>
+                </article>
+            </div>
+        </div>
+
+        <!-- Modal (single, reused for all cards) -->
+        <div id="modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-title">
+            <div class="modal-backdrop" data-dismiss="modal"></div>
+            <div class="modal-panel" role="document">
+                <button class="modal-close" aria-label="Close details" data-dismiss="modal">&times;</button>
+                <h3 id="modal-title">Solution title</h3>
+                <p id="modal-body">Expanded solution details will appear here.</p>
+                <a class="cta" href="/contact">Discuss this solution</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Minimal CSS (put in your stylesheet) -->
+    <style>
+        :root {
+            --max-width: 1200px;
+            --accent: #0b73ff;
+            --bg: #ffffff;
+            --muted: #6b7280;
+            --card-shadow: 0 6px 18px rgba(12, 24, 48, 0.06);
+            --radius: 14px;
+            --gap: 24px;
+            --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: var(--font-sans);
+            margin: 0;
+            color: #0f1724
+        }
+
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 48px 20px
+        }
+
+        .solutions-header {
+            max-width: 760px;
+            margin: 0 auto 32px;
+            text-align: center
+        }
+
+        .eyebrow {
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 13px;
+            margin: 0
+        }
+
+        .solutions-header h2 {
+            font-size: 28px;
+            margin: 8px 0
+        }
+
+        .lead {
+            color: var(--muted);
+            margin: 0 0 16px
+        }
+
+        .solutions-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: var(--gap);
+        }
+
+        /* cards */
+        .solution-card {
+            background: var(--bg);
+            border-radius: var(--radius);
+            padding: 22px;
+            box-shadow: var(--card-shadow);
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            transition: transform .28s ease, box-shadow .28s ease;
+            outline: none;
+        }
+
+        .solution-card:focus,
+        .solution-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 14px 30px rgba(12, 24, 48, 0.12);
+        }
+
+        .icon {
+            font-size: 28px;
+            background: linear-gradient(135deg, rgba(11, 115, 255, 0.08), rgba(11, 115, 255, 0.02));
+            width: 56px;
+            height: 56px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent)
+        }
+
+        .solution-title {
+            margin: 0;
+            font-size: 18px
+        }
+
+        .solution-excerpt {
+            color: var(--muted);
+            margin: 0;
+            flex: 1
+        }
+
+        .btn-details {
+            margin-top: auto;
+            background: transparent;
+            border: 0;
+            color: var(--accent);
+            font-weight: 600;
+            cursor: pointer;
+            padding: 8px 0;
+        }
+
+        /* Modal */
+        .modal {
+            position: fixed;
+            inset: 0;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 1200
+        }
+
+        .modal[aria-hidden="false"] {
+            display: flex
+        }
+
+        .modal-backdrop {
+            position: absolute;
+            inset: 0;
+            background: rgba(2, 6, 23, 0.5)
+        }
+
+        .modal-panel {
+            position: relative;
+            background: white;
+            border-radius: 12px;
+            padding: 28px;
+            max-width: 720px;
+            width: 92%;
+            z-index: 2;
+            box-shadow: 0 18px 40px rgba(2, 6, 23, 0.32)
+        }
+
+        .modal-close {
+            position: absolute;
+            right: 12px;
+            top: 12px;
+            border: 0;
+            background: transparent;
+            font-size: 22px;
+            cursor: pointer
+        }
+
+        /* CTA */
+        .cta {
+            display: inline-block;
+            margin-top: 16px;
+            padding: 10px 16px;
+            border-radius: 10px;
+            background: var(--accent);
+            color: #fff;
+            text-decoration: none
+        }
+
+        /* Responsive */
+        @media (max-width:1100px) {
+            .solutions-grid {
+                grid-template-columns: repeat(2, 1fr)
+            }
+        }
+
+        @media (max-width:600px) {
+            .solutions-grid {
+                grid-template-columns: 1fr
+            }
+
+            .container {
+                padding: 28px 14px
+            }
+
+            .solutions-header h2 {
+                font-size: 22px
+            }
+
+            .icon {
+                width: 48px;
+                height: 48px;
+                font-size: 22px
+            }
+        }
+    </style>
+
+    <!-- Minimal JS (put before </body>) -->
+    <script>
+        (function () {
+            const modal = document.getElementById('modal');
+            const modalTitle = document.getElementById('modal-title');
+            const modalBody = document.getElementById('modal-body');
+            const closeButtons = document.querySelectorAll('[data-dismiss="modal"]');
+            const detailButtons = document.querySelectorAll('.btn-details');
+
+            const solutionsData = {
+                1: { title: 'Custom Web Apps', body: 'We build performant, SEO-friendly single-page and server-rendered web apps using React, Next.js, Node & Typescript. Focus on accessibility and fast load.' },
+                2: { title: 'Mobile Apps', body: 'Native & cross-platform solutions (React Native / Flutter) with polished UI, offline sync, and store publishing.' },
+                3: { title: 'Cloud & Backend', body: 'Microservices, REST / GraphQL APIs, managed databases, observability and secure infra on AWS / GCP.' },
+                4: { title: 'Automation & AI', body: 'Automation pipelines, data ETL, ML prototypes and integration with business workflows.' }
+            };
+
+            function openModal(id) {
+                const data = solutionsData[id];
+                if (!data) return;
+                modalTitle.textContent = data.title;
+                modalBody.textContent = data.body;
+                modal.setAttribute('aria-hidden', 'false');
+                document.body.style.overflow = 'hidden';
+                // mark expanded
+                document.querySelectorAll('.btn-details').forEach(b => b.setAttribute('aria-expanded', 'false'));
+                document.querySelector('.btn-details[data-solution="' + id + '"]').setAttribute('aria-expanded', 'true');
+                // focus
+                modal.querySelector('.modal-close').focus();
+            }
+            function closeModal() {
+                modal.setAttribute('aria-hidden', 'true');
+                document.body.style.overflow = '';
+                document.querySelectorAll('.btn-details').forEach(b => b.setAttribute('aria-expanded', 'false'));
+            }
+
+            detailButtons.forEach(btn => {
+                btn.addEventListener('click', () => openModal(btn.dataset.solution));
+                btn.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') openModal(btn.dataset.solution); });
+            });
+
+            closeButtons.forEach(btn => btn.addEventListener('click', closeModal));
+
+            // close on ESC
+            document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && modal.getAttribute('aria-hidden') === 'false') closeModal(); });
+
+            // close if click backdrop
+            modal.querySelector('.modal-backdrop').addEventListener('click', closeModal);
+        })();
+    </script>
+
+</body>
+
+</html>
