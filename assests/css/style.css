@@ -1,0 +1,33 @@
+/* ========================= universal selector start =========================*/
+
+
+/* ========================= HEADER SECTION CSS START ========================= */
+@import url(./header.css);
+/* ========================= /HEADER SECTION CSS END ========================= */
+
+/* ========================= FOOTER SECTION CSS START ========================= */
+@import url(./footer.css);
+/* ========================= /FOOTER SECTION CSS END ========================= */
+
+/* ========================= RESPONSIVE SECTION CSS START ========================= */
+@import url(./responsive.css);
+/* ========================= /RESPONSIVE SECTION CSS END ========================= */
+
+/* ========================= INDEX SECTION CSS START ========================= */
+@import url(./index.css);
+/* ========================= /INDEX SECTION CSS END ========================= */
+
+/* ========================= ABOUT SECTION CSS START ========================= */
+@import url(./about.css);
+/* ========================= /ABOUT SECTION CSS END ========================= */
+
+/* ========================= UNIVERSAL CSS START ========================= */
+@import url(./universal.css);
+/* ========================= /UNIVERSAL CSS END ========================= */
+
+/* ========================= ANIMATION CSS START ========================= */
+@import url(./animation.css);
+/* ========================= /ANIMATION CSS END ========================= */
+
+
+/* ========================= /universal selector end =========================*/

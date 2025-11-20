@@ -1,0 +1,363 @@
+/* ======================================= INDEX SECTION CSS START ======================================= */
+
+/* ========================= hero section start ========================= */
+.hero .carousel-item {
+    position: relative;
+}
+
+.hero .carousel-caption {
+    top: 40%;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    width: 0px;
+    height: 0px;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 50px 50px;
+}
+
+/* ========================= /hero css section end ========================= */
+
+/* ========================= REVIEW section start ========================= */
+.review .re-content .g-star {
+    font-weight: 600;
+}
+
+.review .re-content .g-star .fa-star,
+.review .re-content .g-star .fa-star-half-stroke {
+    color: #FBB002 !important;
+}
+
+.review .re-content .g-content a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.review .track-content .track-no h5,
+.review .satisfaction-content .satisfaction-no h5,
+.review .projects-content .projects-no h5,
+.review .team-content .team-no h5 {
+    margin-bottom: 0px;
+    border-left: 3px solid #00000026;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.review .track-content .track-title p,
+.review .satisfaction-content .satisfaction-title p,
+.review .projects-content .projects-title p,
+.review .team-content .team-title p {
+    padding-left: 20px;
+    color: #242627;
+}
+
+/* ========================= /REVIEW css section end ========================= */
+
+/* ========================= WHAT-WE-DO section start ========================= */
+.what-we-do .row {
+    width: auto;
+    height: auto;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.what-we-do .what-we-do-content .what-we-do-subtitle h6 {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 5px 9px 5px 9px;
+    width: max-content;
+    border: 1px solid #242627;
+    border-radius: 4px;
+    background: #00000026;
+    color: #DEE0FF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+    word-spacing: 0em;
+}
+
+
+.what-we-do .what-we-do-content .what-we-do-title h2 {
+    padding-top: 10%;
+    padding-bottom: 30px;
+    color: #DEE0FF;
+    margin-left: 20px;
+    word-wrap: break-word;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+
+}
+
+/* ========================= /WHAT-WE-DO css section end ========================= */
+
+/* ========================= why-choose-us section start ========================= */
+.why-choose-us .feature {
+    width: 100%;
+    height: 100%;
+    padding: 10px 2px 2px 10px;
+    border: 2px solid #0000FF;
+    border-radius: 20px;
+    transition: 1s ease-in;
+}
+
+.why-choose-us .feature:hover {
+    box-shadow: 0px 0px 15px 0px #646464;
+    transition: 1s ease-out;
+    border: 6px solid transparent;
+    border-image: url(../img/home/6.png) 30 round;
+    border: 5px solid rgb(51, 49, 49);
+    border-radius: 10px;
+    transform: translate(10px, 10px);
+}
+
+.why-choose-us .feature .icon .icon-new {
+    color: #0000ff;
+    font-size: 50px;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.why-choose-us .feature .content h4 {
+    text-align: center;
+    font-size: 23px;
+}
+
+.why-choose-us .feature .content p {
+    word-spacing: 5px;
+    text-align: 100%;
+}
+
+/* ========================= /why-choose-us css section end ========================= */
+
+/* ========================= about css section start ========================= */
+
+
+.about .about-title a {
+    color: #000000;
+    font-weight: 500;
+    position: relative;
+    transition: 0.5s ease-in;
+}
+
+.about .about-title a::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    transition: 1s;
+    background: #d5d8ff;
+}
+
+.about .about-title a:hover {
+    color: #0000ff !important;
+    transition: 1s ease-in-out;
+}
+
+.about .about-title a::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    transition: 1s;
+    background: #000000;
+}
+
+.about .about-title a:hover::before {
+    width: 100%;
+}
+
+.about .about-title a:hover::after {
+    width: 0%;
+}
+
+
+/* ========================= /about css section end ========================= */
+
+/* ========================= services css section start ========================= */
+.services {
+    background: #B1C7E6;
+}
+
+.services .services-subtitle p {
+    padding: 5px 9px 5px 9px;
+    width: max-content;
+    border: 1px solid #F5F5F5;
+    border-radius: 4px;
+    color: #5F6567;
+    background: #F5F5F5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+    word-spacing: 0em;
+}
+
+.services .services-subtitle h3 {
+    color: #000000;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.services .services-content {
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px 20px 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    transition: 1s ease-in;
+}
+
+.services .services-content:hover {
+    box-shadow: 0px 0px 15px 0px #646464;
+    transition: 1s ease-out;
+    border: 6px solid transparent;
+    border-image: url(../img/home/6.png) 30 round;
+    border: 5px solid rgb(51, 49, 49);
+    border-radius: 10px;
+    transform: translate(10px, 10px);
+}
+
+.services .services-content .services-icon .icon-new {
+    color: #0000ff;
+    font-size: 50px;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.services .services-content .services-title h4 {
+    text-align: center;
+    font-size: 23px;
+}
+
+.services .services-content .services-description p {
+    word-spacing: 5px;
+    text-align: 100%;
+}
+
+.services .services-content .services-more a {
+    position: absolute;
+    left: 35%;
+    color: #000000;
+    font-weight: 500;
+    position: relative;
+    transition: 0.5s ease-in;
+}
+
+.services .services-content .services-more a::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    transition: 1s;
+    background: #d5d8ff;
+}
+
+.services .services-content .services-more a:hover {
+    color: #0000ff !important;
+    transition: 1s ease-in-out;
+}
+
+.services .services-content .services-more a::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    transition: 1s;
+    background: #000000;
+}
+
+.services .services-content .services-more a:hover::before {
+    width: 100%;
+}
+
+.services .services-content .services-more a:hover::after {
+    width: 0%;
+}
+
+.services .last-services-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
+
+/* ========================= /services css section end ========================= */
+
+/* ========================= HOW-WE-DO css section start ========================= */
+
+
+.how-we-do .how-we-do-subtitle p {
+    padding: 5px 9px 5px 9px;
+    width: max-content;
+    border: 1px solid #F5F5F5;
+    border-radius: 4px;
+    color: #5F6567;
+    background: #F5F5F5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+    word-spacing: 0em;
+}
+
+.how-we-do .how-we-do-subtitle h3 {
+    color: #000000;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.how-we-do .how-we-do-content-section .how-we-do-content {
+    border: 2px solid #939393;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background: #c0c0c0;
+
+}
+
+.how-we-do .how-we-do-content-section .how-we-do-content .how-we-do-image img {
+    height: 45px;
+    width: 45px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+}
+
+.how-we-do .how-we-do-content-section .how-we-do-content .how-we-do-title a {
+    color: #0A0D31;
+    font-weight: 600;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+/* ========================= /HOW-WE-DO css section end ========================= */
+
+
+
+/* ======================================= /INDEX SECTION CSS END ======================================= */
