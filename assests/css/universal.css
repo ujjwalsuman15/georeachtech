@@ -9,6 +9,12 @@
 }
 
 
+/* ========================= text color css section start ========================= */
+.text-darkblue {
+    color: #0A0D31;
+}
+
+/* ========================= /text color css section end ========================= */
 /* ========================= p css section start ========================= */
 p {
     line-height: 1.8;
@@ -50,6 +56,7 @@ p {
     margin-right: 9rem !important;
     margin-left: 9rem !important;
 }
+
 .mx-12 {
     margin-right: 10rem !important;
     margin-left: 10rem !important;

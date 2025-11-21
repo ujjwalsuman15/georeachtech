@@ -485,12 +485,12 @@
 
 /* ========================= /Solutions css section end ========================= */
 
-/* ========================= stories section start ========================= */
-.stories {
+/* ========================= case-studies section start ========================= */
+.case-studies {
     background: #ffffff;
 }
 
-.stories .stories-subtitle p {
+.case-studies .case-studies-subtitle p {
     padding: 5px 9px 5px 9px;
     width: max-content;
     border: 1px solid #5F6567;
@@ -508,13 +508,309 @@
 
 }
 
-.stories .stories-subtitle h3 {
+.case-studies .case-studies-subtitle h3 {
     color: #0A0D31;
     font-size: 45px;
     font-weight: 700;
 }
 
-/* ========================= /stories css section end ========================= */
+.case-studies .case-studies-card .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    transform: rotate(0deg) scale(1);
+    transition: all 0.3s linear;
+}
+
+.case-studies .case-studies-card .card:hover img {
+    transform: rotate(4deg) scale(2.12);
+    transition: all 0.3s linear;
+}
+
+.case-studies .case-studies-card .card:hover .card-body .card-title {
+    transition: 0.3s ease-in-out;
+    color: #000000;
+}
+
+.case-studies .case-studies-card .card {
+    transition: 0.3s ease-in-out;
+    box-shadow: 10px 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.case-studies .case-studies-card .card:hover {
+
+    transition: 0.3s ease-in-out;
+    box-shadow: 10px 6px 18px rgba(0, 60, 109, 0.06);
+}
+
+
+.case-studies .case-studies-card .card .card-button {
+    text-align: center;
+}
+
+
+
+
+/* ========================= /case-studies css section end ========================= */
+
+
+/*--------------------------------------------------------------
+  # whyChoose section start 
+  --------------------------------------------------------------*/
+
+#whyChoose {
+    background-color: #e0eaf3;
+}
+
+#whyChoose .slider-wrapper {
+    max-width: 1400px;
+    min-height: 500px;
+    overflow: hidden;
+    padding: 10px;
+    /* margin: 0px 70px; */
+}
+
+#whyChoose .slider-wrapper .swiper-button-next::after,
+#whyChoose .slider-wrapper .swiper-button-prev::after {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#whyChoose .slider-wrapper .swiper-pagination-bullet {
+    background-color: rgb(165, 176, 223);
+    height: 16px;
+    width: 16px;
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+#whyChoose .slider-wrapper .swiper-pagination-bullet-active {
+    background-color: #22577A;
+    height: 18px;
+    width: 18px;
+}
+
+#whyChoose .chooseBox {
+    box-shadow: -1px 0 9px 0 rgba(191, 191, 191, 0.49);
+    border-radius: 4px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    margin: 10px 0px;
+    min-height: 450px;
+    transition: all 0.6s;
+}
+
+#whyChoose .chooseBox img {
+    width: 100%;
+    /* height: 100%; */
+    height: 200px;
+}
+
+#whyChoose .chooseBox::after {
+    position: absolute;
+    content: "";
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    width: 0;
+    background-color: #0093d8;
+}
+
+#whyChoose .chooseBox:hover {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.31);
+    transform: scale(1.05);
+}
+
+#whyChoose .chooseBox:hover::after {
+    width: 100%;
+}
+
+#whyChoose .chooseBox .chooseIcon {
+    margin-bottom: 30px;
+    height: 100px;
+    width: 100px;
+    border-radius: 73% 27% 38% 62% / 40% 43% 57% 60%;
+    line-height: 100px;
+    text-align: center;
+    display: inline-block;
+    -webkit-box-shadow: 0 4px 24px 0 rgba(103, 151, 255, .15), 0 12px 64px 0 rgba(103, 151, 255, .15);
+    box-shadow: 0 4px 24px 0 rgba(103, 151, 255, .15), 0 12px 64px 0 rgba(103, 151, 255, .15);
+    -webkit-transition-duration: 600ms;
+    -o-transition-duration: 600ms;
+    transition-duration: 600ms;
+}
+
+#whyChoose .chooseBox:hover .chooseIcon {
+    -webkit-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    transform: rotate(-360deg)
+}
+
+#whyChoose .chooseBox .chooseIcon img {
+    width: 80px;
+    display: block;
+    height: 80px;
+}
+
+#whyChoose .chooseBox .chooseText {
+    padding: 20px 20px;
+}
+
+#whyChoose .chooseBox .chooseText p {
+    font-size: 16px;
+    line-height: 25px;
+    min-height: 100px;
+    color: #888686;
+    letter-spacing: .5px;
+}
+
+#whyChoose #chooseMobileBox {
+    background-color: white;
+    transition: all 0.6s;
+    box-shadow: 0px 3px 5px rgb(177, 177, 177);
+    border-radius: 20px;
+}
+
+#whyChoose #chooseMobileBox:hover {
+    background-color: #313C96;
+    color: white;
+}
+
+#whyChoose #chooseMobileBox .col-3 div {
+    padding: 20px;
+    background-color: #e6e6e6;
+    color: #313C96;
+    border-radius: 50%;
+    margin-top: auto;
+    font-size: 35px;
+    display: inline-block;
+    line-height: 1;
+}
+
+/*--------------------------------------------------------------
+  # whyChoose section end 
+  --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+    # Responsive section start 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+ # screen max-width 992px start 
+   --------------------------------------------------------------*/
+
+@media screen and (max-width:991px) {}
+
+/*--------------------------------------------------------------
+   # screen max-width 992px end 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+   # screen max-width 768px start 
+ --------------------------------------------------------------*/
+
+@media screen and (max-width:768px) {
+    #insituteStatus #insituteStatusContent p {
+        font-size: 14px;
+    }
+
+    .rating-section .rating-logo {
+        height: 30px;
+    }
+}
+
+/*--------------------------------------------------------------
+  # screen min-width 768px start 
+ --------------------------------------------------------------*/
+
+@media screen and (min-width:768px) {
+    #courseInclude .col-md-3 {
+        border-right: 4px solid #FDC632;
+    }
+}
+
+/*--------------------------------------------------------------
+  # screen min-width 768px end 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+   # screen max-width 576px end 
+  --------------------------------------------------------------*/
+
+@media screen and (max-width:576px) {
+    #insituteStatus .insituteStatusBox {
+        width: 100%;
+        height: 200px;
+    }
+
+    #insituteStatus #insituteStatusContent p {
+        font-size: 13px;
+    }
+
+    #swiper .slider-wrapper {
+        margin: 0px 0px;
+    }
+}
+
+/*--------------------------------------------------------------
+# screen max-width 576px end 
+ --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  # screen max-width 520px start 
+  --------------------------------------------------------------*/
+
+@media screen and (max-width:520px) {
+    #whyChoose #chooseMobileBox .col-3 div {
+        padding: 17px;
+        font-size: 28px;
+        margin: 10px 0px;
+    }
+
+    #whyChoose #chooseMobileBox h5 {
+        font-size: 18px;
+    }
+
+    #whyChoose #chooseMobileBox p {
+        font-size: 15px;
+    }
+}
+
+/*--------------------------------------------------------------
+   # screen max-width 520px end 
+ --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+   # screen max-width 421px start 
+  --------------------------------------------------------------*/
+
+@media screen and (max-width:421px) {
+    #insituteStatus .insituteStatusBox p {
+        font-size: 15px;
+    }
+
+    #whyChoose #chooseMobileBox h5 {
+        font-size: 16px;
+    }
+
+    #whyChoose #chooseMobileBox p {
+        font-size: 14px;
+    }
+}
+
+/*--------------------------------------------------------------
+  # screen max-width 421px end 
+  --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+    # Responsive section end 
+--------------------------------------------------------------*/
+
 
 
 
