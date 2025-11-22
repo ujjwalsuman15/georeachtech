@@ -691,8 +691,17 @@
 
 
 /* ========================= /written-review css section end ========================= */
+
 .written-review {
-    background: #ffffff;
+    background-color: #cccccc;
+    font-family: "Open Sans", sans-serif;
+}
+
+.written-review .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
 }
 
 .written-review .written-review-subtitle p {
@@ -719,25 +728,62 @@
     font-weight: 700;
 }
 
-.review-card {
-    background: #fff;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
-    max-width: 600px;
+.written-review .card {
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: rgb(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.written-review .card img {
+    width: 130px;
+    border-radius: 50%;
     margin: auto;
+    margin-top: -85px;
 }
 
-.review-description p {
-    font-size: 18px;
-    margin-bottom: 15px;
-    color: #444;
+.written-review .card .review {
+    color: orange;
 }
 
-.review-writer h4 {
+.written-review .myreviewSwiper {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    max-width: 1100px;
+}
+
+.written-review .review-card .review-writer h3,
+.written-review .review-card .review-page {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.written-review .review-card .review-writer h3 {
     font-size: 16px;
-    color: #777;
+    font-weight: bold;
 }
+
+.written-review .review-card .review-page a {
+    margin-top: 10px;
+    color: #0096ff;
+    font-size: 14 px;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+    top: 63%;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset, 10px);
+    left: auto;
+    top: 63%;
+}
+
+
 
 /* ========================= /written-review css section end ========================= */
 
