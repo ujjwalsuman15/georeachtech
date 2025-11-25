@@ -819,7 +819,30 @@
     color: #0A0D31;
     font-size: 45px;
     font-weight: 700;
-    padding: 0% 40% 0% 0%;
+    /* padding: 0% 40% 0% 0%; */
+}
+
+.contactus .contactus-form .form-control:focus {
+    color: #ffffff;
+    background-color: #0300a1;
+    border-color: #0A0D31;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+.contactus .contactus-form .form-control,
+.contactus .contactus-form .form-select {
+    font-weight: 600;
+    background-color: #8f8f8f;
+    color: #0A0D31;
+    border: 2px dotted #0A0D31;
+    transition: 0.5s ease-in-out;
+}
+
+.contactus .contactus-form .form-control:hover,
+.contactus .contactus-form .form-select:hover {
+    border: 2px solid #0000FF;
+    transition: 0.5s ease-in-out;
 }
 
 /* ========================= /Contact-Us css section end ========================= */
