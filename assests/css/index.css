@@ -786,8 +786,11 @@
 /* ========================= Contact-Us css section start ========================= */
 
 .contactus {
-    background-color: #cccccc;
+    background: linear-gradient(to bottom, #0f172a 0%, #0f172a 35%, #ffffff 35%, #B6C1D8 60%, #B6C1D8 100%);
     font-family: "Open Sans", sans-serif;
+    border-radius: 10px;
+    padding-bottom: 1px;
+    margin-bottom: 80px;
 }
 
 .contactus .container {
@@ -800,7 +803,7 @@
 .contactus .contactus-subtitle p {
     padding: 5px 9px 5px 9px;
     width: max-content;
-    border: 1px solid #5F6567;
+    border: 1px solid #DEE0FF;
     border-radius: 4px;
     color: #F5F5F5;
     background: #5F6567;
@@ -816,10 +819,112 @@
 }
 
 .contactus .contactus-subtitle h3 {
-    color: #0A0D31;
+    color: #DEE0FF;
     font-size: 45px;
     font-weight: 700;
     /* padding: 0% 40% 0% 0%; */
+}
+
+.contactus .contactus-subtitle-content {}
+
+
+.contactus .left-content .contact-number span {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    width: 51%;
+    color: #0A0D31;
+    position: relative;
+    margin-bottom: 20px;
+    transition: 0.5s ease-in;
+}
+
+.contactus .left-content .contact-number span::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: -2px;
+    width: 100%;
+    height: 3px;
+    transition: 1s;
+    background: #d5d8ff;
+}
+
+.contactus .left-content .contact-number span:hover {
+    color: #0A0D31 !important;
+    transition: 1s ease-in-out;
+}
+
+.contactus .left-content .contact-number span::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+    width: 0%;
+    height: 3px;
+    transition: 1s;
+    background: #000000;
+}
+
+.contactus .left-content .contact-number span:hover::before {
+    width: 100%;
+}
+
+.contactus .left-content .contact-number span:hover::after {
+    width: 0%;
+}
+
+.left-content h5 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.benefits-ul {
+    width: auto;
+}
+
+.benefits {
+    margin: 0px 80px 55px 0px;
+}
+
+.benefits li {
+    align-items: center;
+    list-style: none;
+    margin: 5px 20px 10px 0px;
+    font-size: 16px;
+}
+
+.happens-next .happens-next-content h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #242627;
+    line-height: 1.3em;
+    margin: 0px 20px 15px 0px;
+
+}
+
+.happens-next .happens-next-content p {
+    color: #242627;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin: 0px 20px 0px 0px;
+}
+
+.happens-next .happens-next-content svg {
+    width: 17%;
+    fill: #00000026;
+}
+
+
+
+
+
+
+.contactus .contactus-form-content {
+    display: inline-flex;
+    justify-self: left;
 }
 
 .contactus .contactus-form .form-control:focus {
@@ -828,6 +933,11 @@
     border-color: #0A0D31;
     outline: 0;
     box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+.contactus .contactus-form .form-check-input[type=checkbox] {
+    border-radius: 1em;
+    border: 2px solid #0A0D31;
 }
 
 .contactus .contactus-form .form-control,
@@ -847,6 +957,51 @@
 
 /* ========================= /Contact-Us css section end ========================= */
 
+
+
+/* ========================= END-REVIEW section start ========================= */
+.end-review .re-content .g-star {
+    font-weight: 600;
+}
+
+.end-review .re-content .g-star .fa-star,
+.end-review .re-content .g-star .fa-star-half-stroke {
+    color: #FBB002 !important;
+}
+
+.end-review .re-content .g-content a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.end-review .track-content .map-url,
+.end-review .review-contact-content {
+    border-left: 3px solid #000000;
+    height: 30px;
+    padding: 0px 0px 0px 20px;
+    margin: 0px 0px 10px 0px;
+
+}
+
+.end-review .track-content .map-url a,
+.end-review .review-contact-content a {
+    color: #242627;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    transition: 0.5s ease-in-out;
+}
+
+.end-review .track-content .map-url a:hover,
+.end-review .review-contact-content a:hover {
+    color: #0000FF;
+    transition: 0.5s ease-in-out;
+}
+
+/* ========================= /END-REVIEW css section end ========================= */
 
 
 /* ======================================= /INDEX SECTION CSS END ======================================= */

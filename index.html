@@ -1379,7 +1379,7 @@
   <!-- ========================= /WRITTEN-REVIEW section end ========================= -->
 
   <!-- ========================= Contact-Us section end ========================= -->
-  <section class="contactus ptb-50 bg-info">
+  <section class="contactus pt-50 mx-lg-4">
     <div class="container-fluid">
       <div class="row mx-3 mb-4">
         <div class="contactus-subtitle">
@@ -1389,18 +1389,68 @@
         </div>
       </div>
       <div class="row mx-3  my-lg-5">
-        <div class="col-md-7">
+        <div class="col-lg-7 left-content">
           <div class="contactus-subtitle">
             <h3 class="my-3">
-              Partner with Us for Comprehensive Online Presence
+              Partner with Us for Comprehensive Online <br> Presence
             </h3>
           </div>
+          <p class="text-darkblue pt-100 fw-bold fs-4">
+            We’re happy to answer any questions you may have and help you determine which of our services best fit
+            your needs.
+          </p>
+          <p class="contact-number">
+            <span>
+              Call us at:
+              <a href="tel:+917709692945">
+                +91 7709692945
+              </a>
+              ,
+              <a href="tel:+917588078005">
+                +91 7588078005
+              </a>
+            </span>
+          </p>
+
+          <h5>Your benefits:</h5>
+          <div class="benefits-ul d-flex">
+            <ul class="benefits">
+              <li>✔ Client-oriented</li>
+              <li>✔ Independent</li>
+              <li>✔ Competent</li>
+            </ul>
+            <ul class="benefits">
+              <li>✔ Results-driven</li>
+              <li>✔ Problem-solving</li>
+              <li>✔ Transparent</li>
+            </ul>
+          </div>
+
+          <div class="happens-next">
+            <h5>What happens next?</h5>
+            <div class="happens-next-content d-flex">
+              <h2>1.</h2>
+              <p>We Schedule a call at your convenience</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="61" viewBox="0 0 12 61">
+                <path d="m.37.6.95-.3 10.21 30.62L1.31 60.57l-.95-.33 10.11-29.32z" fill="" fill-rule="nonzero"
+                  fill-opacity=""></path>
+              </svg>
+              <h2>2.</h2>
+              <p>We do a discovery and consulting meeting </p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="61" viewBox="0 0 12 61">
+                <path d="m.37.6.95-.3 10.21 30.62L1.31 60.57l-.95-.33 10.11-29.32z" fill="" fill-rule="nonzero"
+                  fill-opacity=""></path>
+              </svg>
+              <h2>3.</h2>
+              <p>We prepare a proposal </p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-5">
-          <div class="contactus-form px-5 pt-4 pb-5 bg-white rounded">
-            <h5 class="fw-bold text-dark text-center pb-3">Schedule a Free Consultation</h5>
+        <div class="col-lg-5 contactus-form-content">
+          <div class="contactus-form px-5 pt-2 pb-2 bg-white rounded">
+            <h5 class="fw-bold text-dark text-center pb-1">Schedule a Free Consultation</h5>
             <form autocomplete="off" method="post" name="google-sheet" id="google-sheet-form">
-              <div class="row mb-2">
+              <div class="row mb-1">
                 <div class="col-md-6">
                   <label for="firstname" class="form-label fw-bold">First Name</label>
                   <input type="text" class="form-control" id="firstname" name="FirstName" required>
@@ -1410,27 +1460,27 @@
                   <input type="text" class="form-control" id="lastname" name="LastName" required>
                 </div>
               </div>
-              <div class="mb-2">
+              <div class="mb-1">
                 <label for="companyorganization" class="form-label fw-bold">Company / Organization</label>
                 <input type="text" class="form-control" id="companyorganization" aria-describedby="company-organization"
-                  name="ComorOrg" required>
+                  name="ComorOrg" title="Please Fill in This field" required>
                 <div id="company-organization" class="form-text">Please Write here Your Company or Organization.</div>
               </div>
-              <div class="mb-2">
+              <div class="mb-1">
                 <label for="exampleInputEmail1" class="form-label fw-bold">Email address</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                  name="Email" required>
+                  name="Email" required="required" aria-required="true">
                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
               </div>
-              <div class="mb-2">
+              <div class="mb-1">
                 <label for="exampleInputPassword1" class="form-label fw-bold">Password</label>
                 <input type="password" class="form-control" id="exampleInputPassword1" name="Password" required>
               </div>
-              <div class="mb-2">
+              <div class="mb-1">
                 <label for="phone" class="form-label fw-bold">Phone</label>
-                <input type="number" class="form-control" id="phone" name="Contact" required>
+                <input type="tel" class="form-control" id="phone" name="Contact" required>
               </div>
-              <div class="mb-2">
+              <div class="mb-1">
                 <label for="select" class="form-label fw-bold">How Can We Help You?</label>
                 <select class="form-select" aria-label="Default select example" name="Help..">
                   <option value="no Option Selected" selected>Select Option</option>
@@ -1445,11 +1495,11 @@
                   <option value="Other">Other</option>
                 </select>
               </div>
-              <div class="mb-2 form-check">
+              <div class="mb-1 form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label fw-bold" for="exampleCheck1">I filled Correct Information</label>
               </div>
-              <div class="mb-2">
+              <div class="mb-1">
                 <label for="message" class="form-label fw-bold">Message</label>
                 <textarea class="form-control" id="message" rows="4" name="Message"
                   placeholder="To better assist you, please describe how we can help you..."></textarea>
@@ -1656,7 +1706,71 @@
   </footer>
   <!-- ========================= /Footer Section end ========================= -->
 
+  <!-- ========================= END-REVIEW section start ========================= -->
 
+  <section class="end-review py-4">
+    <div class="container-fluid">
+      <div class="row ps-4">
+        <div class="col-lg-3 col-md-6">
+          <div class="g-rev d-flex mb-4">
+            <div class="g-image pe-2">
+              <a href="https://maps.app.goo.gl/efVSaEzB1pJpPGoo8" target="_blank">
+                <img src="./assests/img/home/google_Logo.png" alt="google_Logo">
+              </a>
+            </div>
+            <div class="re-content d-block">
+              <div class="g-star">
+                4.6
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <div class="g-content">
+                <a href="https://maps.app.goo.gl/efVSaEzB1pJpPGoo8" target="_blank">
+                  Google Reviews
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div class="track-content">
+            <div class="map-url">
+              <a href="https://www.google.com/maps/place/WeWork+Office+Space+%26+Coworking/@40.7532064,-74.0243453,14z/data=!4m6!3m5!1s0x89c2593c748dd72f:0x71cfc30dce729157!8m2!3d40.7532064!4d-73.9893264!16s%2Fg%2F11gh63n3wc"
+                target="_blank">
+                508, Picasso Plaza, NIBM, Pune, India 411048
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="review-contact-content">
+            <div class="review-phone">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+917709692945">+91 7709692945 </a>
+              ,
+              <a href="tel:+917588078005"> +91 7588078005</a>
+            </div>
+            <div class="review-mail">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:info@georeachtech.com">
+                info@georeachtech.com
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="projects-content">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= /END-REVIEW section end ========================= -->
 
 
 
