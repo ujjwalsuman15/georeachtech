@@ -825,9 +825,6 @@
     /* padding: 0% 40% 0% 0%; */
 }
 
-.contactus .contactus-subtitle-content {}
-
-
 .contactus .left-content .contact-number span {
     display: block;
     font-size: 20px;
@@ -917,11 +914,6 @@
     fill: #00000026;
 }
 
-
-
-
-
-
 .contactus .contactus-form-content {
     display: inline-flex;
     justify-self: left;
@@ -956,52 +948,5 @@
 }
 
 /* ========================= /Contact-Us css section end ========================= */
-
-
-
-/* ========================= END-REVIEW section start ========================= */
-.end-review .re-content .g-star {
-    font-weight: 600;
-}
-
-.end-review .re-content .g-star .fa-star,
-.end-review .re-content .g-star .fa-star-half-stroke {
-    color: #FBB002 !important;
-}
-
-.end-review .re-content .g-content a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #000000;
-    text-transform: uppercase;
-}
-
-.end-review .track-content .map-url,
-.end-review .review-contact-content {
-    border-left: 3px solid #000000;
-    height: 30px;
-    padding: 0px 0px 0px 20px;
-    margin: 0px 0px 10px 0px;
-
-}
-
-.end-review .track-content .map-url a,
-.end-review .review-contact-content a {
-    color: #242627;
-    font-size: 15px;
-    font-weight: 400;
-    margin-bottom: 0px;
-    transition: 0.5s ease-in-out;
-}
-
-.end-review .track-content .map-url a:hover,
-.end-review .review-contact-content a:hover {
-    color: #0000FF;
-    transition: 0.5s ease-in-out;
-}
-
-/* ========================= /END-REVIEW css section end ========================= */
-
 
 /* ======================================= /INDEX SECTION CSS END ======================================= */

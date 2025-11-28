@@ -280,26 +280,117 @@ footer .footer-content .footer-photo-gallery li .box a:hover {
 
 /* ========================= /Footer Section End ========================= */
 
-/* ========================= copyright Section start ========================= */
-div.copyright {
-    background: #091629;
-}
-
-div.copyright .copyright-content {
-    text-align: center;
-}
-
-div.copyright .copyright-content p {
-    color: #fff;
-    margin: 0px;
-}
-
-div.copyright .copyright-content p a {
+/* ========================= END-REVIEW section start ========================= */
+.end-review .re-content .g-star {
     font-weight: 600;
-    color: #010ED0;
-    display: inline-block;
-    text-decoration: none;
 }
+
+.end-review .re-content .g-star .fa-star,
+.end-review .re-content .g-star .fa-star-half-stroke {
+    color: #FBB002 !important;
+}
+
+.end-review .re-content .g-content a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.end-review .track-content .map-url,
+.end-review .review-contact-content {
+    border-left: 3px solid #000000;
+    height: 30px;
+    padding: 0px 0px 0px 20px;
+    margin: 0px 0px 10px 0px;
+
+}
+
+.end-review .track-content .map-url a,
+.end-review .review-contact-content a {
+    color: #242627;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    transition: 0.5s ease-in-out;
+}
+
+.end-review .track-content .map-url a:hover,
+.end-review .review-contact-content a:hover {
+    color: #0000FF;
+    transition: 0.5s ease-in-out;
+}
+
+.end-review .social-media-content {
+    margin: 10px 0px 10px 0px;
+}
+
+.end-review .social-media-content ul {
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.end-review .social-media-content ul li {
+    margin-left: 0;
+}
+
+.end-review .social-media-content ul li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: #242627;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    transition: all 0.5s ease-in;
+}
+
+.end-review .social-media-content ul li a:hover {
+    background: #010ED0;
+    border-radius: 20%;
+    transform: translateY(-5px) translateX(5px);
+    transition: all 0.5s ease-in-out;
+}
+
+/* ========================= /END-REVIEW css section end ========================= */
+
+/* ========================= copyright Section start ========================= */
+
+.copyright .copyright-content p.y-r {
+    font-weight: 600;
+}
+
+.copyright .copyright-content p,
+.copyright .copyright-content a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #242627;
+    margin: 0px 15px 0px 0px;
+    transition: 1.5s ease-in-out;
+}
+
+.copyright .copyright-content a.g-t {
+    margin: 0px 20px 0px 0px;
+}
+
+.copyright .copyright-content a.t-c,
+.copyright .copyright-content a.p-p {
+    color: #242627;
+    margin-inline-end: 12.5px;
+}
+
+.copyright .copyright-content a.g-t:hover,
+.copyright .copyright-content a.t-c:hover,
+.copyright .copyright-content a.p-p:hover {
+    color: #010ED0;
+    transition: 0.5s ease-in-out;
+}
+
 
 /* ========================= /copyright Section End ========================= */
 
