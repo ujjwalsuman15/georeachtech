@@ -33,6 +33,14 @@
     transition: 1s;
     background: #000000;
 }
+/* 
+.dropdown-item.active {
+    color: #ccc !important;
+    background: #1b0238;
+    border: 6px solid #ccc;
+    border-radius: 20px;
+    line-height: 30px;
+} */
 
 .navbar-collapse .navbar-nav .nav-item a:hover::before {
     width: 90%;
@@ -71,8 +79,8 @@
     display: block;
 }
 
+
+
 /* ========================= /Nav section end ========================= */
 
 /* ======================================= /HEADER SECTION CSS END ======================================= */
-
-

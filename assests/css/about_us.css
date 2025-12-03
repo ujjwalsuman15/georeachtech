@@ -1,15 +1,10 @@
-/* ======================================= ABOUT SECTION CSS START ======================================= */
+/* ======================================= ABOUT US SECTION CSS START ======================================= */
 /* ========================= Banner section start ========================= */
-a {
-    text-decoration: none;
-    transition: 0.5s;
-    color: #1b0238;
-}
 
 .about-banner {
     position: relative;
     z-index: 1;
-    background: url(../img/about/3.png);
+    background: url(../img/about_us/3.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,8 +12,6 @@ a {
     padding-bottom: 200px;
     background-attachment: fixed;
 }
-
-
 
 .about-banner::before {
     position: absolute;
@@ -46,7 +39,7 @@ a {
 .about-banner ul li {
     display: inline-block;
     margin-left: 10px;
-    color: #0400ff;
+    color: #0512D1;
     position: relative;
 }
 
@@ -115,4 +108,4 @@ a {
 }
 
 /* ========================= /Who-We-Are section end ========================= */
-/* ======================================= /ABOUT SECTION CSS END ======================================= */
+/* ======================================= /ABOUT US SECTION CSS END ======================================= */

@@ -9,6 +9,12 @@
 }
 
 
+a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: #1b0238;
+}
+
 /* ========================= text color css section start ========================= */
 .text-darkblue {
     color: #0A0D31;
@@ -80,6 +86,11 @@ p {
 /* ========================= /Margin css section end ========================= */
 
 /* ========================= padding css section start ========================= */
+.ptb-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .ptb-50 {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -88,6 +99,10 @@ p {
 .ptb-100 {
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.pt-10 {
+    padding-top: 10px;
 }
 
 .pb-50 {
@@ -108,6 +123,10 @@ p {
 
 .pt-80 {
     padding-top: 80px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
 }
 
 .pb-6 {
@@ -197,6 +216,9 @@ a.active {
     background: #2600ff;
     box-shadow: 0 0 15px #001aff, 0 0 30px #00fff0;
 } */
+.btn2 {
+    padding: 10px 10px;
+}
 
 .premium-hr {
     position: relative;
