@@ -59,5 +59,13 @@
 @import url(./Contact-Us.css);
 /* ========================= /CONTACT-US SECTION CSS END ========================= */
 
+/* ========================= MOBILE-APP SECTION CSS START ========================= */
+@import url(./mobileapp.css);
+/* ========================= /MOBILE-APP SECTION CSS END ========================= */
+
+/* ========================= AGRI-TECH SECTION CSS START ========================= */
+@import url(./agri_tech.css);
+/* ========================= /AGRI-TECH SECTION CSS END ========================= */
+
 
 /* ========================= /universal selector end =========================*/

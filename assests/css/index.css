@@ -545,6 +545,10 @@
 }
 
 
+.case-studies .case-studies-card .card .card-body {
+    height: 330px;
+}
+
 .case-studies .case-studies-card .card .card-button {
     text-align: center;
 }
