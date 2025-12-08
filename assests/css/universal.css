@@ -21,6 +21,15 @@ a {
 }
 
 /* ========================= /text color css section end ========================= */
+
+/* ========================= bg color css section start ========================= */
+.bg-sky-blue {
+    background: #B6C8E5 !important;
+}
+
+/* ========================= /bg color css section end ========================= */
+
+
 /* ========================= p css section start ========================= */
 p {
     line-height: 1.8;

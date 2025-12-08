@@ -584,6 +584,11 @@
     transition: all 0.4s;
 }
 
+#whyChoose .slider-wrapper.swiper-initialized.swiper-horizontal .swiper-button-prev,
+#whyChoose .slider-wrapper.swiper-initialized.swiper-horizontal .swiper-button-next {
+    top: 50%;
+}
+
 #whyChoose .slider-wrapper .swiper-pagination-bullet-active {
     background-color: #22577A;
     height: 18px;
