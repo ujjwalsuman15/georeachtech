@@ -364,5 +364,48 @@
 
 /* ========================= /productivity section end ========================= */
 
+/* ========================= proceess section start ========================= */
+.process-content .process-content-title h2 {
+    font-size: 45px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Roboto", sans-serif;
+}
+
+.process-content .process-collapse-content .process-collapse-content-title h4 {
+    text-align: center;
+}
+
+.process-content .process-collapse-content {
+    background: rgb(119, 119, 119);
+    padding: 10px 4px;
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgb(0, 4, 255);
+    transition: transform .28s ease, box-shadow .28s ease;
+}
+
+.process-content .process-collapse-content:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 30px rgba(0, 85, 255, 0.411);
+}
+
+.process-content .process-collapse-content .process-collapse-content-title h4 {
+    color: #0A0D31;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.process-content .process-collapse-content .process-collapse-content-discription p {
+    color: #ffffff;
+}
+
+.process-content .process-collapse-last-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
+
+/* ========================= /proceess section end ========================= */
+
 
 /* ======================================= /AGRI-TECH SECTION CSS END ======================================= */
