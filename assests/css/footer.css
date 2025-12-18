@@ -1,0 +1,398 @@
+/* ======================================= FOOOTER SECTION CSS START ======================================= */
+/* ========================= Footer Section Start ========================= */
+footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/main/logo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+footer .footer-content .logo-name h1 a {
+    background: url(../img/home/7.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer .footer-content {
+    margin-bottom: 40px;
+}
+
+footer .footer-content .logo-name {
+    margin-bottom: 25px;
+}
+
+footer .footer-content h1 a {
+    font-size: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Catamaran", sans-serif;
+}
+
+footer .footer-content p {
+    color: #fff;
+}
+
+footer .footer-content p+ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+footer .footer-content p+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer .footer-content p+ul li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    background: #010ED0;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    transition: all 0.5s ease-in;
+}
+
+footer .footer-content p+ul li a:hover {
+    background: #0A0D31;
+    border-radius: 20%;
+    transform: translateY(-5px) translateX(5px);
+    transition: all 0.5s ease-in-out;
+}
+
+footer .footer-content h3 {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    font-family: "Catamaran", sans-serif;
+}
+
+footer .footer-content h3::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 50px;
+    background: #010ED0;
+}
+
+footer .footer-content .footer-contact-info,
+footer .footer-content .footer-solution-info {
+    list-style-type: none;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+footer .footer-content .footer-contact-info li {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    font-weight: 500;
+    padding-left: 35px;
+    display: list-item;
+    font-family: "Roboto", sans-serif;
+}
+
+footer .footer-content .footer-contact-info li .contact-icon {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    font-size: 25px;
+    color: #010ED0;
+}
+
+footer .footer-content .footer-contact-info li span {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+
+footer .footer-content .footer-contact-info li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    position: relative;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.5s ease-in;
+}
+
+footer .footer-content .footer-contact-info li a:hover,
+footer .footer-content .footer-solution-info li a:hover {
+    color: #010ED0;
+    transition: 0.5s ease-out;
+}
+
+footer .footer-content .footer-contact-info li a::before,
+footer .footer-content .footer-solution-info li a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 1px;
+    transition: 1s;
+    background: #010ED0;
+}
+
+footer .footer-content .footer-contact-info li a:hover::before,
+footer .footer-content .footer-solution-info li a:hover::before {
+    width: 100%;
+}
+
+footer .footer-content .footer-contact-info li:last-child,
+footer .footer-content .footer-solution-info li:last-child {
+    margin-bottom: 0px;
+}
+
+footer .footer-content .footer-contact-info li span:last-child {
+    font-size: 14px;
+}
+
+footer .footer-content .footer-solution-info li {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 18px;
+    position: relative;
+    display: list-item;
+    font-family: "Roboto", sans-serif;
+}
+
+footer .footer-content .footer-solution-info li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.5s ease-in;
+}
+
+footer .footer-content .footer-solution-info li a:hover {
+    color: #010ED0;
+    transition: 0.5s ease-out;
+}
+
+footer .footer-content .footer-solution-info li a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 1px;
+    transition: 1s;
+    background: #010ED0;
+}
+
+footer .footer-content .footer-solution-info li a:hover::before {
+    width: 100%;
+}
+
+footer .footer-content .footer-solution-info li:last-child {
+    margin-bottom: 0px;
+}
+
+footer .footer-content .footer-photo-gallery {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    margin-left: -2px;
+    margin-right: -2px;
+    margin-top: -5px;
+}
+
+footer .footer-content .footer-photo-gallery li {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 5px;
+}
+
+footer .footer-content .footer-photo-gallery li .box {
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+}
+
+footer .footer-content .footer-photo-gallery li .box:hover::before {
+    opacity: 0.5;
+    visibility: visible;
+}
+
+footer .footer-content .footer-photo-gallery li .box::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: #010ED0;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+footer .footer-content .footer-photo-gallery li .box img {
+    height: auto;
+    transition: 0.5s;
+    max-width: 100%;
+    display: inline-block;
+    width: 79px;
+    vertical-align: middle;
+}
+
+footer .footer-content .footer-photo-gallery li .box:hover img {
+    transform: scale(1.1);
+}
+
+footer .footer-content .footer-photo-gallery li .box .link-btn {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+}
+
+footer .footer-content .footer-photo-gallery li .box a:hover {
+    color: #010ED0;
+    text-decoration: none;
+}
+
+/* ========================= /Footer Section End ========================= */
+
+/* ========================= END-REVIEW section start ========================= */
+.end-review .re-content .g-star {
+    font-weight: 600;
+}
+
+.end-review .re-content .g-star .fa-star,
+.end-review .re-content .g-star .fa-star-half-stroke {
+    color: #FBB002 !important;
+}
+
+.end-review .re-content .g-content a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.end-review .track-content .map-url,
+.end-review .review-contact-content {
+    border-left: 3px solid #000000;
+    height: 30px;
+    padding: 0px 0px 0px 20px;
+    margin: 0px 0px 10px 0px;
+
+}
+
+.end-review .track-content .map-url a,
+.end-review .review-contact-content a {
+    color: #242627;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    transition: 0.5s ease-in-out;
+}
+
+.end-review .track-content .map-url a:hover,
+.end-review .review-contact-content a:hover {
+    color: #0000FF;
+    transition: 0.5s ease-in-out;
+}
+
+.end-review .social-media-content {
+    margin: 10px 0px 10px 0px;
+}
+
+.end-review .social-media-content ul {
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.end-review .social-media-content ul li {
+    margin-left: 0;
+}
+
+.end-review .social-media-content ul li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: #242627;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    transition: all 0.5s ease-in;
+}
+
+.end-review .social-media-content ul li a:hover {
+    background: #010ED0;
+    border-radius: 20%;
+    transform: translateY(-5px) translateX(5px);
+    transition: all 0.5s ease-in-out;
+}
+
+/* ========================= /END-REVIEW css section end ========================= */
+
+/* ========================= copyright Section start ========================= */
+
+.copyright .copyright-content p.y-r {
+    font-weight: 600;
+}
+
+.copyright .copyright-content p,
+.copyright .copyright-content a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #242627;
+    margin: 0px 15px 0px 0px;
+    transition: 1.5s ease-in-out;
+}
+
+.copyright .copyright-content a.g-t {
+    margin: 0px 20px 0px 0px;
+}
+
+.copyright .copyright-content a.t-c,
+.copyright .copyright-content a.p-p {
+    color: #242627;
+    margin-inline-end: 12.5px;
+}
+
+.copyright .copyright-content a.g-t:hover,
+.copyright .copyright-content a.t-c:hover,
+.copyright .copyright-content a.p-p:hover {
+    color: #010ED0;
+    transition: 0.5s ease-in-out;
+}
+
+
+/* ========================= /copyright Section End ========================= */
+
+
+/* ======================================= /FOOOTER SECTION CSS END ======================================= */

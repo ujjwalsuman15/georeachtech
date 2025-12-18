@@ -1,0 +1,252 @@
+/* ======================================= HEALTHCARE SECTION CSS START ======================================= */
+/* ========================= Banner section start ========================= */
+
+.healthcare-banner {
+    position: relative;
+    z-index: 1;
+    background: url(../img/healthcare/doctors.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-attachment: fixed;
+}
+
+.healthcare-banner::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.healthcare-banner h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.healthcare-banner ul li:first-child {
+    margin-left: 0;
+}
+
+.healthcare-banner ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #0512D1;
+    position: relative;
+}
+
+.healthcare-banner ul li a {
+    display: block;
+    color: #ffffff;
+    transition: .5s ease-in-out;
+}
+
+.healthcare-banner ul li a.home:hover {
+    color: #0400ff !important;
+    transition: .5s ease-in-out;
+}
+
+.healthcare-banner .healthcare-b::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 1px;
+    height: 13px;
+    background-color: #0400ff;
+}
+
+.healthcare-banner .healthcare-b {
+    transition: .5s ease-in-out;
+}
+
+.healthcare-banner .healthcare-b:hover {
+    color: #ffffff;
+    transition: .5s ease-in-out;
+}
+
+/* ========================= /Banner section end ========================= */
+
+/* ========================= healthcare-title section start ========================= */
+.healthcare-title {
+    z-index: 9;
+}
+
+.healthcare-title .healthcare-title-content span {
+    font-size: 20px;
+    color: #0400ff;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.healthcare-title .healthcare-title-content h3 {
+    font-size: 35px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.healthcare-title .healthcare-title-content p {
+    margin-bottom: 0px;
+}
+
+.healthcare-title .healthcare-title-content ul .healthcare-para p {
+    color: #0A0D31;
+
+}
+
+.healthcare-title .healthcare-title-content ul li {
+    line-height: 45px;
+}
+
+.healthcare-title .healthcare-title-content ul li span {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    margin-right: 8px;
+    border-radius: 50%;
+    background: #a59494;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    transition: all 0.5s;
+    font-family: "Roboto", sans-serif;
+}
+
+.healthcare-title .healthcare-title-content ul li:hover span {
+    background: #0000ff;
+    transition: all 1s linear;
+}
+
+/* ========================= /healthcare-title section end ========================= */
+
+/* ========================= healthcare-content section start ========================= */
+
+.healthcare-content .container .farm-image {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.healthcare-content .container .farm-image img {
+    width: 100%;
+    height: 500px;
+}
+
+.healthcare-content .container .col-lg-6 .farm-image::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #0000ff;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.5s;
+    animation: border-transform-farm-image 10s linear infinite alternate forwards;
+}
+
+.healthcare-content .container .farm-image img {
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.healthcare-content .container .col-lg-6 .farm-image::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #0A0D31;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.5s;
+    animation: border-transform-farm-image 50s linear infinite alternate forwards;
+}
+
+.healthcare-content .healthcare-content-content span {
+    font-size: 20px;
+    color: #0400ff;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.healthcare-content .healthcare-content-content h3 {
+    font-size: 35px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.healthcare-content .healthcare-content-content p {
+    margin-bottom: 0px;
+}
+
+/* ========================= /healthcare-content section end ========================= */
+
+/* ========================= case-studies section start ========================= */
+
+.healthcare-case-studies .case-studies-subtitle p {
+    margin: 0 !important;
+}
+
+.healthcare-case-studies .case-studies-card .card:hover img {
+    transform: rotate(4deg) scale(1.19);
+    transition: all 0.3s linear;
+}
+
+.healthcare-case-studies .case-studies-card .card .card-body {
+    height: 300px;
+}
+
+/* ========================= /case-studies section end ========================= */
+
+/* ========================= why-choose section start ========================= */
+
+
+.why-Choose-section .slider-wrapper.swiper-initialized.swiper-horizontal .swiper-button-prev,
+.why-Choose-section .slider-wrapper.swiper-initialized.swiper-horizontal .swiper-button-next {
+    top: 40% !important;
+}
+
+.why-Choose-section .chooseBox {
+    min-height: 370px !important;
+}
+
+.why-Choose-section .swiper-horizontal>.swiper-pagination-bullets,
+.why-Choose-section .swiper-pagination-bullets.swiper-pagination-horizontal,
+.why-Choose-section .swiper-pagination-custom,
+.why-Choose-section .swiper-pagination-fraction {
+    bottom: 80px;
+}
+
+/* ========================= /why-choose section end ========================= */
+
+/* ========================= healthcare-process-content section start ========================= */
+
+.healthcare-process-content .process-collapse-content {
+    padding: 30px 20px;
+    height: 300px !important;
+    background: #ffffff;
+}
+
+.healthcare-process-content .process-collapse-content .process-collapse-content-discription p {
+    color: #000000;
+}
+
+/* ========================= /healthcare-process-content section end ========================= */
+
+/* ======================================= /HEALTHCARE SECTION CSS END ======================================= */

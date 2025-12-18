@@ -1,0 +1,89 @@
+/* ======================================= case-studies SECTION CSS START ======================================= */
+/* ========================= Banner section start ========================= */
+
+
+.case-studies-banner {
+    position: relative;
+    z-index: 1;
+    background: url(../img/case_studies/5.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-attachment: fixed;
+}
+
+.case-studies-banner::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.case-studies-banner h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.case-studies-banner ul li:first-child {
+    margin-left: 0;
+}
+
+.case-studies-banner ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #0512D1;
+    position: relative;
+}
+
+.case-studies-banner ul li a {
+    display: block;
+    color: #ffffff;
+    transition: .5s ease-in-out;
+}
+
+.case-studies-banner ul li a.home:hover {
+    color: #0400ff !important;
+    transition: .5s ease-in-out;
+}
+
+.case-studies-banner .case-studies-b::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 1px;
+    height: 13px;
+    background-color: #0400ff;
+}
+
+.case-studies-banner .case-studies-b {
+    transition: .5s ease-in-out;
+}
+
+.case-studies-banner .case-studies-b:hover {
+    color: #ffffff;
+    transition: .5s ease-in-out;
+}
+
+/* ========================= /Banner section end ========================= */
+
+/* ========================= /case-studies section end ========================= */
+
+.case-studies.bg-light-green {
+    background-color: #a1c5a7;
+}
+
+/* rest code is in index.css file case-studies section */
+
+/* ========================= /case-studies section end ========================= */
+
+/* ======================================= /case-studies SECTION CSS END ======================================= */

@@ -1,0 +1,961 @@
+/* ======================================= INDEX SECTION CSS START ======================================= */
+
+/* ========================= hero section start ========================= */
+.hero .carousel-item {
+    position: relative;
+}
+
+.hero .carousel-caption {
+    top: 40%;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    width: 0px;
+    height: 0px;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 50px 50px;
+}
+
+/* ========================= /hero css section end ========================= */
+
+/* ========================= REVIEW section start ========================= */
+.review .re-content .g-star {
+    font-weight: 600;
+}
+
+.review .re-content .g-star .fa-star,
+.review .re-content .g-star .fa-star-half-stroke {
+    color: #FBB002 !important;
+}
+
+.review .re-content .g-content a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.review .track-content .track-no h5,
+.review .satisfaction-content .satisfaction-no h5,
+.review .projects-content .projects-no h5,
+.review .team-content .team-no h5 {
+    margin-bottom: 0px;
+    border-left: 3px solid #00000026;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.review .track-content .track-title p,
+.review .satisfaction-content .satisfaction-title p,
+.review .projects-content .projects-title p,
+.review .team-content .team-title p {
+    padding-left: 20px;
+    color: #242627;
+}
+
+/* ========================= /REVIEW css section end ========================= */
+
+/* ========================= WHAT-WE-DO section start ========================= */
+.what-we-do .row {
+    width: auto;
+    height: auto;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.what-we-do .what-we-do-content .what-we-do-subtitle h6 {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 5px 9px 5px 9px;
+    width: max-content;
+    border: 1px solid #242627;
+    border-radius: 4px;
+    background: #00000026;
+    color: #DEE0FF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+    word-spacing: 0em;
+}
+
+
+.what-we-do .what-we-do-content .what-we-do-title h2 {
+    padding-top: 10%;
+    padding-bottom: 30px;
+    color: #DEE0FF;
+    margin-left: 20px;
+    word-wrap: break-word;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+
+}
+
+/* ========================= /WHAT-WE-DO css section end ========================= */
+
+/* ========================= why-choose-us section start ========================= */
+.why-choose-us .feature {
+    width: 100%;
+    height: 100%;
+    padding: 10px 2px 2px 10px;
+    border: 2px solid #0000FF;
+    border-radius: 20px;
+    transition: 1s ease-in;
+}
+
+.why-choose-us .feature:hover {
+    box-shadow: 0px 0px 15px 0px #646464;
+    transition: 1s ease-out;
+    border: 6px solid transparent;
+    border-image: url(../img/home/6.png) 30 round;
+    border: 5px solid rgb(51, 49, 49);
+    border-radius: 10px;
+    transform: translate(10px, 10px);
+}
+
+.why-choose-us .feature .icon .icon-new {
+    color: #0000ff;
+    font-size: 50px;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.why-choose-us .feature .content h4 {
+    text-align: center;
+    font-size: 23px;
+}
+
+.why-choose-us .feature .content p {
+    word-spacing: 5px;
+    text-align: 100%;
+}
+
+/* ========================= /why-choose-us css section end ========================= */
+
+/* ========================= about css section start ========================= */
+
+
+.about .about-title a {
+    color: #000000;
+    font-weight: 500;
+    position: relative;
+    transition: 0.5s ease-in;
+}
+
+.about .about-title a::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    transition: 1s;
+    background: #d5d8ff;
+}
+
+.about .about-title a:hover {
+    color: #0000ff !important;
+    transition: 1s ease-in-out;
+}
+
+.about .about-title a::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    transition: 1s;
+    background: #000000;
+}
+
+.about .about-title a:hover::before {
+    width: 100%;
+}
+
+.about .about-title a:hover::after {
+    width: 0%;
+}
+
+
+/* ========================= /about css section end ========================= */
+
+/* ========================= services css section start ========================= */
+.services {
+    background: #B1C7E6;
+}
+
+.services .services-subtitle p {
+    padding: 5px 9px 5px 9px;
+    width: max-content;
+    border: 1px solid #F5F5F5;
+    border-radius: 4px;
+    color: #5F6567;
+    background: #F5F5F5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+    word-spacing: 0em;
+}
+
+.services .services-subtitle h3 {
+    color: #000000;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.services .services-content {
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px 20px 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    transition: 1s ease-in;
+}
+
+.services .services-content:hover {
+    box-shadow: 0px 0px 15px #646464;
+    border: 6px solid transparent;
+    border-image: url(../img/home/6.png) 30 round;
+    /* border: 5px solid rgb(51, 49, 49); */
+    border-radius: 10px;
+    transform: translateY(-8px);
+    transition: 1s ease-out;
+}
+
+.services .services-content .services-icon .icon-new {
+    color: #0000ff;
+    font-size: 50px;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.services .services-content .services-title h4 {
+    text-align: center;
+    font-size: 23px;
+}
+
+.services .services-content .services-description p {
+    word-spacing: 5px;
+    text-align: 100%;
+}
+
+.services .services-content .services-more a {
+    position: absolute;
+    left: 35%;
+    color: #000000;
+    font-weight: 500;
+    position: relative;
+    transition: 0.5s ease-in;
+}
+
+.services .services-content .services-more a::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    transition: 1s;
+    background: #d5d8ff;
+}
+
+.services .services-content .services-more a:hover {
+    color: #0000ff !important;
+    transition: 1s ease-in-out;
+}
+
+.services .services-content .services-more a::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    transition: 1s;
+    background: #000000;
+}
+
+.services .services-content .services-more a:hover::before {
+    width: 100%;
+}
+
+.services .services-content .services-more a:hover::after {
+    width: 0%;
+}
+
+.services .last-services-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
+
+/* ========================= /services css section end ========================= */
+
+/* ========================= HOW-WE-DO css section start ========================= */
+
+
+.how-we-do .how-we-do-subtitle p {
+    padding: 5px 9px 5px 9px;
+    width: max-content;
+    border: 1px solid #F5F5F5;
+    border-radius: 4px;
+    color: #5F6567;
+    background: #F5F5F5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+    word-spacing: 0em;
+}
+
+.how-we-do .how-we-do-subtitle h3 {
+    color: #000000;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.how-we-do .how-we-do-content-section .how-we-do-content {
+    border: 2px solid #939393;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background: #c0c0c0;
+
+}
+
+.how-we-do .how-we-do-content-section .how-we-do-content .how-we-do-image img {
+    height: 45px;
+    width: 45px;
+    border: 2px solid #939393;
+    border-radius: 50%;
+}
+
+.how-we-do .how-we-do-content-section .how-we-do-content .how-we-do-title a {
+    color: #0A0D31;
+    font-weight: 600;
+    padding-left: 15px;
+    font-size: 15px;
+    transition: 0.5s ease-in;
+}
+
+.how-we-do .how-we-do-content-section .how-we-do-content .how-we-do-title a:hover {
+    color: #0000FF;
+    transition: 0.5s ease-out;
+}
+
+.how-we-do .View-all-industries a {
+    color: #0000ff;
+    font-weight: 500;
+    position: relative;
+    transition: 0.5s ease-in;
+}
+
+.how-we-do .View-all-industries a::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    transition: 1s;
+    background: #d5d8ff;
+}
+
+.how-we-do .View-all-industries a:hover {
+    color: #000000 !important;
+    transition: 1s ease-in-out;
+}
+
+.how-we-do .View-all-industries a::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    transition: 1s;
+    background: #0000ff;
+}
+
+.how-we-do .View-all-industries a:hover::before {
+    width: 100%;
+}
+
+.how-we-do .View-all-industries a:hover::after {
+    width: 0%;
+}
+
+/* ========================= /HOW-WE-DO css section end ========================= */
+
+/* ========================= Solutions section start ========================= */
+.solutions {
+    background: #ffffff;
+}
+
+.solutions .solutions-subtitle p {
+    padding: 5px 9px 5px 9px;
+    width: max-content;
+    border: 1px solid #5F6567;
+    border-radius: 4px;
+    color: #F5F5F5;
+    background: #5F6567;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+    word-spacing: 0em;
+
+}
+
+.solutions .solutions-subtitle h3 {
+    color: #0A0D31;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.solutions .solutions-box-content {
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    padding: 22px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    transition: transform .28s ease, box-shadow .28s ease;
+}
+
+.solutions .solutions-box-content:focus,
+.solutions .solutions-box-content:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 30px rgba(12, 24, 48, 0.12);
+}
+
+.solutions .solutions-box-content .solutions-icon .icon-new {
+    color: #0000ff;
+    font-size: 28px;
+    background: linear-gradient(135deg, rgba(11, 115, 255, 0.08), rgba(11, 115, 255, 0.02));
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+.solutions .solutions-box-content .solutions-title h3 {
+    text-align: center;
+    font-size: 25px;
+    color: #0f1724;
+}
+
+.solutions .solutions-box-content .solutions-description p {
+    word-spacing: 3px;
+    letter-spacing: 0.3px;
+}
+
+.solutions .solutions-box-last-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
+
+/* ========================= /Solutions css section end ========================= */
+
+/* ========================= case-studies section start ========================= */
+.case-studies {
+    background: #ffffff;
+}
+
+.case-studies .case-studies-subtitle p {
+    padding: 5px 9px 5px 9px;
+    width: max-content;
+    border: 1px solid #5F6567;
+    border-radius: 4px;
+    color: #F5F5F5;
+    background: #5F6567;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+    word-spacing: 0em;
+
+}
+
+.case-studies .case-studies-subtitle h3 {
+    color: #0A0D31;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.case-studies .case-studies-card .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    transform: rotate(0deg) scale(1);
+    transition: all 0.3s linear;
+}
+
+.case-studies .case-studies-card .card:hover img {
+    transform: rotate(4deg) scale(2.12);
+    transition: all 0.3s linear;
+}
+
+.case-studies .case-studies-card .card:hover .card-body .card-title {
+    transition: 0.3s ease-in-out;
+    color: #000000;
+}
+
+.case-studies .case-studies-card .card {
+    transition: 0.3s ease-in-out;
+    box-shadow: 10px 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.case-studies .case-studies-card .card:hover {
+
+    transition: 0.3s ease-in-out;
+    box-shadow: 10px 6px 18px rgba(0, 60, 109, 0.06);
+}
+
+
+.case-studies .case-studies-card .card .card-body {
+    height: 330px;
+}
+
+.case-studies .case-studies-card .card .card-button {
+    text-align: center;
+}
+
+/* ========================= /case-studies css section end ========================= */
+
+
+/* ========================= whyChoose section start ========================= */
+
+#whyChoose {
+    background-color: #e0eaf3;
+}
+
+#whyChoose .slider-wrapper {
+    max-width: 1400px;
+    min-height: 500px;
+    overflow: hidden;
+    padding: 10px;
+    /* margin: 0px 70px; */
+}
+
+#whyChoose .slider-wrapper .swiper-button-next::after,
+#whyChoose .slider-wrapper .swiper-button-prev::after {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#whyChoose .slider-wrapper .swiper-pagination-bullet {
+    background-color: rgb(165, 176, 223);
+    height: 16px;
+    width: 16px;
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+#whyChoose .slider-wrapper.swiper-initialized.swiper-horizontal .swiper-button-prev,
+#whyChoose .slider-wrapper.swiper-initialized.swiper-horizontal .swiper-button-next {
+    top: 50%;
+}
+
+#whyChoose .slider-wrapper .swiper-pagination-bullet-active {
+    background-color: #22577A;
+    height: 18px;
+    width: 18px;
+}
+
+#whyChoose .chooseBox {
+    box-shadow: -1px 0 9px 0 rgba(191, 191, 191, 0.49);
+    border-radius: 4px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    margin: 10px 0px;
+    min-height: 450px;
+    transition: all 0.6s;
+}
+
+#whyChoose .chooseBox img {
+    width: 100%;
+    /* height: 100%; */
+    height: 200px;
+}
+
+#whyChoose .chooseBox::after {
+    position: absolute;
+    content: "";
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    width: 0;
+    background-color: #0093d8;
+}
+
+#whyChoose .chooseBox:hover {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.31);
+    transform: scale(1.05);
+}
+
+#whyChoose .chooseBox:hover::after {
+    width: 100%;
+}
+
+#whyChoose .chooseBox .chooseIcon {
+    margin-bottom: 30px;
+    height: 100px;
+    width: 100px;
+    border-radius: 73% 27% 38% 62% / 40% 43% 57% 60%;
+    line-height: 100px;
+    text-align: center;
+    display: inline-block;
+    -webkit-box-shadow: 0 4px 24px 0 rgba(103, 151, 255, .15), 0 12px 64px 0 rgba(103, 151, 255, .15);
+    box-shadow: 0 4px 24px 0 rgba(103, 151, 255, .15), 0 12px 64px 0 rgba(103, 151, 255, .15);
+    -webkit-transition-duration: 600ms;
+    -o-transition-duration: 600ms;
+    transition-duration: 600ms;
+}
+
+#whyChoose .chooseBox:hover .chooseIcon {
+    -webkit-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    transform: rotate(-360deg)
+}
+
+#whyChoose .chooseBox .chooseIcon img {
+    width: 80px;
+    display: block;
+    height: 80px;
+}
+
+#whyChoose .chooseBox .chooseText {
+    padding: 20px 20px;
+}
+
+#whyChoose .chooseBox .chooseText p {
+    font-size: 16px;
+    line-height: 25px;
+    min-height: 100px;
+    color: #888686;
+    letter-spacing: .5px;
+}
+
+#whyChoose #chooseMobileBox {
+    background-color: white;
+    transition: all 0.6s;
+    box-shadow: 0px 3px 5px rgb(177, 177, 177);
+    border-radius: 20px;
+}
+
+#whyChoose #chooseMobileBox:hover {
+    background-color: #313C96;
+    color: white;
+}
+
+#whyChoose #chooseMobileBox .col-3 div {
+    padding: 20px;
+    background-color: #e6e6e6;
+    color: #313C96;
+    border-radius: 50%;
+    margin-top: auto;
+    font-size: 35px;
+    display: inline-block;
+    line-height: 1;
+}
+
+/* ========================= /whyChoose css section end ========================= */
+
+
+/* ========================= written-review css section start ========================= */
+
+.written-review {
+    background-color: #cccccc;
+    font-family: "Open Sans", sans-serif;
+}
+
+.written-review .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+.written-review .written-review-subtitle p {
+    padding: 5px 9px 5px 9px;
+    width: max-content;
+    border: 1px solid #5F6567;
+    border-radius: 4px;
+    color: #F5F5F5;
+    background: #5F6567;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+    word-spacing: 0em;
+
+}
+
+.written-review .written-review-subtitle h3 {
+    color: #0A0D31;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.written-review .card {
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: rgb(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.written-review .card img {
+    width: 130px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -85px;
+}
+
+.written-review .card .review {
+    color: orange;
+}
+
+.written-review .myreviewSwiper {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    max-width: 1100px;
+}
+
+.written-review .review-card .review-writer h3,
+.written-review .review-card .review-page {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.written-review .review-card .review-writer h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.written-review .review-card .review-page a {
+    margin-top: 10px;
+    color: #0096ff;
+    font-size: 14 px;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+    top: 63%;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+    top: 63%;
+}
+
+/* ========================= /written-review css section end ========================= */
+
+/* ========================= Contact-Us css section start ========================= */
+
+.contactus {
+    background: linear-gradient(to bottom, #0f172a 0%, #0f172a 35%, #ffffff 35%, #B6C1D8 60%, #B6C1D8 100%);
+    font-family: "Open Sans", sans-serif;
+    border-radius: 10px;
+    padding-bottom: 1px;
+    margin-bottom: 80px;
+}
+
+.contactus .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+.contactus .contactus-subtitle p {
+    padding: 5px 9px 5px 9px;
+    width: max-content;
+    border: 1px solid #DEE0FF;
+    border-radius: 4px;
+    color: #F5F5F5;
+    background: #5F6567;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+    word-spacing: 0em;
+
+}
+
+.contactus .contactus-subtitle h3 {
+    color: #DEE0FF;
+    font-size: 45px;
+    font-weight: 700;
+    /* padding: 0% 40% 0% 0%; */
+}
+
+.contactus .left-content .contact-number span {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    width: 51%;
+    color: #0A0D31;
+    position: relative;
+    margin-bottom: 20px;
+    transition: 0.5s ease-in;
+}
+
+.contactus .left-content .contact-number span::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: -2px;
+    width: 100%;
+    height: 3px;
+    transition: 1s;
+    background: #d5d8ff;
+}
+
+.contactus .left-content .contact-number span:hover {
+    color: #0A0D31 !important;
+    transition: 1s ease-in-out;
+}
+
+.contactus .left-content .contact-number span::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+    width: 0%;
+    height: 3px;
+    transition: 1s;
+    background: #000000;
+}
+
+.contactus .left-content .contact-number span:hover::before {
+    width: 100%;
+}
+
+.contactus .left-content .contact-number span:hover::after {
+    width: 0%;
+}
+
+.left-content h5 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.benefits-ul {
+    width: auto;
+}
+
+.benefits {
+    margin: 0px 80px 55px 0px;
+}
+
+.benefits li {
+    align-items: center;
+    list-style: none;
+    margin: 5px 20px 10px 0px;
+    font-size: 16px;
+}
+
+.happens-next .happens-next-content h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #242627;
+    line-height: 1.3em;
+    margin: 0px 20px 15px 0px;
+
+}
+
+.happens-next .happens-next-content p {
+    color: #242627;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin: 0px 20px 0px 0px;
+}
+
+.happens-next .happens-next-content svg {
+    width: 17%;
+    fill: #00000026;
+}
+
+.contactus .contactus-form-content {
+    display: inline-flex;
+    justify-self: left;
+}
+
+.contactus .contactus-form .form-control:focus {
+    color: #ffffff;
+    background-color: #0300a1;
+    border-color: #0A0D31;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+.contactus .contactus-form .form-check-input[type=checkbox] {
+    border-radius: 1em;
+    border: 2px solid #0A0D31;
+}
+
+.contactus .contactus-form .form-control,
+.contactus .contactus-form .form-select {
+    font-weight: 600;
+    background-color: #8f8f8f;
+    color: #0A0D31;
+    border: 2px dotted #0A0D31;
+    transition: 0.5s ease-in-out;
+}
+
+.contactus .contactus-form .form-control:hover,
+.contactus .contactus-form .form-select:hover {
+    border: 2px solid #0000FF;
+    transition: 0.5s ease-in-out;
+}
+
+/* ========================= /Contact-Us css section end ========================= */
+
+/* ======================================= /INDEX SECTION CSS END ======================================= */

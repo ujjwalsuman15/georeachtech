@@ -1,0 +1,411 @@
+/* ======================================= AGRI-TECH SECTION CSS START ======================================= */
+/* ========================= Banner section start ========================= */
+
+.agritech-banner {
+    position: relative;
+    z-index: 1;
+    background: url(../img/agri_tech/agri_1.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-attachment: fixed;
+}
+
+.agritech-banner::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.agritech-banner h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.agritech-banner ul li:first-child {
+    margin-left: 0;
+}
+
+.agritech-banner ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #0512D1;
+    position: relative;
+}
+
+.agritech-banner ul li a {
+    display: block;
+    color: #ffffff;
+    transition: .5s ease-in-out;
+}
+
+.agritech-banner ul li a.home:hover {
+    color: #0400ff !important;
+    transition: .5s ease-in-out;
+}
+
+.agritech-banner .agritech-b::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 1px;
+    height: 13px;
+    background-color: #0400ff;
+}
+
+.agritech-banner .agritech-b {
+    transition: .5s ease-in-out;
+}
+
+.agritech-banner .agritech-b:hover {
+    color: #ffffff;
+    transition: .5s ease-in-out;
+}
+
+/* ========================= /Banner section end ========================= */
+
+/* ========================= agritech-content section start ========================= */
+
+.agritech-content .container .farm-image {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.agritech-content .container .col-lg-5 .farm-image::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #0000ff;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.5s;
+    animation: border-transform-farm-image 10s linear infinite alternate forwards;
+}
+
+.agritech-content .container .farm-image img {
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.agritech-content .container .col-lg-5 .farm-image::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #0A0D31;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.5s;
+    animation: border-transform-farm-image 50s linear infinite alternate forwards;
+}
+
+.agritech-content .agritech-content-content span {
+    font-size: 20px;
+    color: #0400ff;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.agritech-content .agritech-content-content h3 {
+    font-size: 35px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.agritech-content .agritech-content-content p {
+    margin-bottom: 0px;
+}
+
+.agritech-content .col-lg-7.content span.agritech-content-spanno-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #0000ff;
+}
+
+.agritech-content .col-lg-7 ul.agritech-content-list {
+    padding-left: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.agritech-content .col-lg-7 ul.agritech-content-list li {
+    list-style-type: none;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1b0238;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+.agritech-content .col-lg-7 ul li span {
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #0A0D31;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+}
+
+.agritech-content .agritech-content-btn {
+    margin-top: 30px;
+}
+
+.agritech-content .col-lg-7 ul li:hover span {
+    background: #0400ff;
+    transition: all 1s linear;
+}
+
+/* ========================= /agritech-content section end ========================= */
+
+/* ========================= key-features section start ========================= */
+
+.key-features .container {
+    background: rgb(174, 193, 214);
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 0px #32257a;
+}
+
+.key-features .key-features-title h3 {
+    font-size: 35px;
+    color: #0A0D31;
+    font-weight: bold;
+}
+
+.key-features ul.key-features-content-list {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.key-features ul.key-features-content-list li {
+    list-style-type: none;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1b0238;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+.key-features ul.key-features-content-list li .key-features-content-list-content p {
+    color: #0A0D31;
+}
+
+.key-features ul li span {
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #0A0D31;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+}
+
+.key-features .key-features-content ul li:hover span {
+    background: #0400ff;
+    transition: all 1s linear;
+}
+
+/* ========================= /key-features section end ========================= */
+
+/* ========================= productivity section start ========================= */
+
+.productivity-content .productivity-content-content span {
+    font-size: 20px;
+    color: #0400ff;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.productivity-content .productivity-content-content h3 {
+    font-size: 35px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.productivity-content .productivity-content-content p {
+    margin-bottom: 0px;
+}
+
+.productivity-content .col-lg-7.content span.productivity-content-spanno-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #0000ff;
+}
+
+.productivity-content .col-lg-7 ul.productivity-content-list {
+    padding-left: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productivity-content .col-lg-7 ul.productivity-content-list li {
+    list-style-type: none;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1b0238;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+.productivity-content .col-lg-7 ul li span {
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #0A0D31;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+}
+
+.productivity-content .productivity-content-btn {
+    margin-top: 30px;
+}
+
+.productivity-content .col-lg-7 ul li:hover span {
+    background: #0400ff;
+    transition: all 1s linear;
+}
+
+.productivity-content .container .farm-image {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.productivity-content .container .col-lg-5 .farm-image::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #0000ff;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.5s;
+    animation: border-transform-farm-image 10s linear infinite alternate forwards;
+}
+
+.productivity-content .container .farm-image img {
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.productivity-content .container .col-lg-5 .farm-image::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #0A0D31;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.5s;
+    animation: border-transform-farm-image 50s linear infinite alternate forwards;
+}
+
+/* ========================= /productivity section end ========================= */
+
+/* ========================= proceess section start ========================= */
+.process-content .process-content-title h2 {
+    font-size: 45px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Roboto", sans-serif;
+}
+
+.process-content .process-collapse-content .process-collapse-content-title h4 {
+    text-align: center;
+}
+
+.process-content .process-collapse-content {
+    background: rgb(119, 119, 119);
+    padding: 10px 4px;
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgb(0, 4, 255);
+    transition: transform .28s ease, box-shadow .28s ease;
+}
+
+.process-content .process-collapse-content:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 30px rgba(0, 85, 255, 0.411);
+}
+
+.process-content .process-collapse-content .process-collapse-content-title h4 {
+    color: #0A0D31;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.process-content .process-collapse-content .process-collapse-content-discription p {
+    color: #ffffff;
+}
+
+.process-content .process-collapse-last-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
+
+/* ========================= /proceess section end ========================= */
+
+
+/* ======================================= /AGRI-TECH SECTION CSS END ======================================= */

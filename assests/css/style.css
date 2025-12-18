@@ -1,0 +1,75 @@
+/* ========================= universal selector start =========================*/
+
+/* ========================= FONT SECTION CSS START ========================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+/* ========================= /FONT SECTION CSS END ========================= */
+
+/* ========================= HEADER SECTION CSS START ========================= */
+@import url(./header.css);
+/* ========================= /HEADER SECTION CSS END ========================= */
+
+/* ========================= FOOTER SECTION CSS START ========================= */
+@import url(./footer.css);
+/* ========================= /FOOTER SECTION CSS END ========================= */
+
+/* ========================= RESPONSIVE SECTION CSS START ========================= */
+@import url(./responsive.css);
+/* ========================= /RESPONSIVE SECTION CSS END ========================= */
+
+/* ========================= UNIVERSAL CSS START ========================= */
+@import url(./universal.css);
+/* ========================= /UNIVERSAL CSS END ========================= */
+
+/* ========================= ANIMATION CSS START ========================= */
+@import url(./animation.css);
+/* ========================= /ANIMATION CSS END ========================= */
+
+/* ========================= INDEX SECTION CSS START ========================= */
+@import url(./index.css);
+/* ========================= /INDEX SECTION CSS END ========================= */
+
+/* ========================= ABOUT SECTION CSS START ========================= */
+@import url(./about_us.css);
+/* ========================= /ABOUT SECTION CSS END ========================= */
+
+/* ========================= SERVICES SECTION CSS START ========================= */
+@import url(./services.css);
+/* ========================= /SERVICES SECTION CSS END ========================= */
+
+/* ========================= SOLUTIONS SECTION CSS START ========================= */
+@import url(./solutions.css);
+/* ========================= /SOLUTIONS SECTION CSS END ========================= */
+
+/* ========================= INDUSTRY SECTION CSS START ========================= */
+@import url(./industry.css);
+/* ========================= /INDUSTRY SECTION CSS END ========================= */
+
+/* ========================= COMPANY SECTION CSS START ========================= */
+@import url(./company.css);
+/* ========================= /COMPANY SECTION CSS END ========================= */
+
+/* ========================= CASE-STUDIES SECTION CSS START ========================= */
+@import url(./case-studies.css);
+/* ========================= /CASE-STUDIES SECTION CSS END ========================= */
+
+/* ========================= CONTACT-US SECTION CSS START ========================= */
+@import url(./Contact-Us.css);
+/* ========================= /CONTACT-US SECTION CSS END ========================= */
+
+/* ========================= MOBILE-APP SECTION CSS START ========================= */
+@import url(./mobileapp.css);
+/* ========================= /MOBILE-APP SECTION CSS END ========================= */
+
+/* ========================= AGRI-TECH SECTION CSS START ========================= */
+@import url(./agri_tech.css);
+/* ========================= /AGRI-TECH SECTION CSS END ========================= */
+
+/* ========================= HEALTHCARE SECTION CSS START ========================= */
+@import url(./healthcare.css);
+/* ========================= /HEALTHCARE SECTION CSS END ========================= */
+
+
+/* ========================= /universal selector end =========================*/

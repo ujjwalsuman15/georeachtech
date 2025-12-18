@@ -1,0 +1,86 @@
+/* ======================================= HEADER SECTION CSS START ======================================= */
+
+
+
+/* ========================= HEADER SECTION START =========================*/
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+}
+
+.navbar {
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-collapse .navbar-nav .nav-item a {
+    position: relative;
+    transition: 0.5s ease-in;
+}
+
+.navbar-collapse .navbar-nav .nav-item a:hover {
+    color: #0000ff !important;
+    transition: 1s ease-in-out;
+}
+
+.navbar-collapse .navbar-nav .nav-item a::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    transition: 1s;
+    background: #000000;
+}
+/* 
+.dropdown-item.active {
+    color: #ccc !important;
+    background: #1b0238;
+    border: 6px solid #ccc;
+    border-radius: 20px;
+    line-height: 30px;
+} */
+
+.navbar-collapse .navbar-nav .nav-item a:hover::before {
+    width: 90%;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        height: 30px;
+    }
+}
+
+/* ========================= /HEADER SECTION END =========================*/
+
+
+/* ========================= Nav section start ========================= */
+
+.navbar-collapse .navbar-nav .nav-item a {
+    font-weight: 700 !important;
+}
+
+.dropdown-menu {
+    width: auto;
+    border: none;
+    position: absolute;
+    border-radius: 10px;
+    transition: all 4s ease-in-out;
+    box-shadow: 0px 0px 15px 0px #ccc;
+    --bs-dropdown-link-active-bg: #0dfd99;
+}
+
+.dropdown-menu .dropdown-item {
+    padding: 10px 20px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+/* ========================= /Nav section end ========================= */
+
+/* ======================================= /HEADER SECTION CSS END ======================================= */

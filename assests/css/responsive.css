@@ -1,0 +1,131 @@
+/* ======================================= RESPONSIVE SECTION CSS START ======================================= */
+
+
+/* ========================================== min width 1200px start ========================================== */
+
+@media screen and (min-width: 1200px) {}
+
+/* =========================================== min width 1200px end =========================================== */
+
+/* =========================================== max width 1200px start =========================================== */
+
+@media screen and (max-width: 1200px) {}
+
+/* =========================================== max width 1200px end =========================================== */
+
+/* =========================================== max width 992px start =========================================== */
+
+@media screen and (max-width: 992px) {}
+
+/* ============================================ max width 992px end ============================================ */
+
+/* =========================================== max width 768px start =========================================== */
+
+@media screen and (max-width: 768px) {
+
+    /* ========================= whyChoose Responsive section start ========================= */
+    #insituteStatus #insituteStatusContent p {
+        font-size: 14px;
+    }
+
+    .rating-section .rating-logo {
+        height: 30px;
+    }
+
+    /* ========================= /whyChoose Responsive section section end ========================= */
+}
+
+/* ============================================ max width 768px end ============================================ */
+
+/* =========================================== min width 768px start =========================================== */
+@media screen and (min-width:768px) {
+
+    /* ========================= whyChoose Responsive section start ========================= */
+    #courseInclude .col-md-3 {
+        border-right: 4px solid #FDC632;
+    }
+
+    /* ========================= /whyChoose Responsive section section end ========================= */
+}
+
+/* ============================================ min width 768px end ============================================ */
+
+/* =========================================== max width 576px start =========================================== */
+
+@media screen and (max-width: 576px) {
+
+    /* ========================= whyChoose Responsive section start ========================= */
+    #insituteStatus .insituteStatusBox {
+        width: 100%;
+        height: 200px;
+    }
+
+    #insituteStatus #insituteStatusContent p {
+        font-size: 13px;
+    }
+
+    #swiper .slider-wrapper {
+        margin: 0px 0px;
+    }
+
+    /* ========================= /whyChoose Responsive section section end ========================= */
+}
+
+/* ============================================ max width 576px end ============================================ */
+
+/* =========================================== max width 520px start =========================================== */
+
+@media screen and (max-width:520px) {
+
+    /* ========================= whyChoose Responsive section start ========================= */
+    #whyChoose #chooseMobileBox .col-3 div {
+        padding: 17px;
+        font-size: 28px;
+        margin: 10px 0px;
+    }
+
+    #whyChoose #chooseMobileBox h5 {
+        font-size: 18px;
+    }
+
+    #whyChoose #chooseMobileBox p {
+        font-size: 15px;
+    }
+
+    /* ========================= /whyChoose Responsive section section end ========================= */
+}
+
+/* ============================================ max width 520px end ============================================ */
+
+/* ================================= min width 0px and max width 576px start ================================= */
+
+@media screen and (min-width: 0px) and (max-width: 576px) {}
+
+/* ================================= min width 0px and max width 576px end ================================= */
+
+/* =========================================== max width 421px start =========================================== */
+
+@media screen and (max-width:421px) {
+
+
+    
+    /* ========================= whyChoose Responsive section start ========================= */
+    #insituteStatus .insituteStatusBox p {
+        font-size: 15px;
+    }
+
+    #whyChoose #chooseMobileBox h5 {
+        font-size: 16px;
+    }
+
+    #whyChoose #chooseMobileBox p {
+        font-size: 14px;
+    }
+
+    /* ========================= /whyChoose Responsive section section end ========================= */
+}
+
+/* ============================================ max width 421px end ============================================ */
+
+/* ======================================= /RESPONSIVE SECTION CSS END ======================================= */
+

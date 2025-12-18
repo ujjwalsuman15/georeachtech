@@ -1,0 +1,173 @@
+/* ======================================= solutions SECTION CSS START ======================================= */
+/* ========================= Banner section start ========================= */
+
+
+.solutions-banner {
+    position: relative;
+    z-index: 1;
+    background: url(../img/solutions/5.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-attachment: fixed;
+}
+
+.solutions-banner::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.solutions-banner h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.solutions-banner ul li:first-child {
+    margin-left: 0;
+}
+
+.solutions-banner ul li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #0512D1;
+    position: relative;
+}
+
+.solutions-banner ul li a {
+    display: block;
+    color: #ffffff;
+    transition: .5s ease-in-out;
+}
+
+.solutions-banner ul li a.home:hover {
+    color: #0400ff !important;
+    transition: .5s ease-in-out;
+}
+
+.solutions-banner .solutions-b::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -6px;
+    width: 1px;
+    height: 13px;
+    background-color: #0400ff;
+}
+
+.solutions-banner .solutions-b {
+    transition: .5s ease-in-out;
+}
+
+.solutions-banner .solutions-b:hover {
+    color: #ffffff;
+    transition: .5s ease-in-out;
+}
+
+/* ========================= /Banner section end ========================= */
+
+/* ========================= Solutions-content section start ========================= */
+.solutions-title {
+    z-index: 9;
+}
+
+.solutions-title .solutions-title-content span {
+    font-size: 20px;
+    color: #0400ff;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.solutions-title .solutions-title-content h3 {
+    font-size: 35px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.solutions-title .solutions-title-content p {
+    margin-bottom: 0px;
+}
+
+.solutions-title .solutions-title-content ul .solutions-para p {
+    color: #0A0D31;
+
+}
+
+.solutions-title .solutions-title-content ul li {
+    line-height: 45px;
+}
+
+.solutions-title .solutions-title-content ul li span {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    margin-right: 8px;
+    border-radius: 50%;
+    background: #a59494;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    transition: all 0.5s;
+    font-family: "Roboto", sans-serif;
+}
+
+.solutions-title .solutions-title-content ul li:hover span {
+    background: #0000ff;
+    transition: all 1s linear;
+}
+
+/* ========================= /Solutions-content section end ========================= */
+
+/* ========================= Solutions section start ========================= */
+
+/* rest code is in index.css file case-studies section */
+
+/* ========================= /Solutions section end ========================= */
+
+/* ========================= /Why choose section end ========================= */
+
+.why-choose-solutions .container {
+    border-radius: 20px;
+    padding: 20px;
+    background: #f7f2e2;
+    box-shadow: 0px 0px 15px 0px #646464;
+}
+
+.why-choose-solutions .why-choose-solutions-content span {
+    font-size: 20px;
+    color: #0400ff;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+}
+
+.why-choose-solutions .why-choose-solutions-content h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.why-choose-solutions .why-choose-solutions-content p {
+    margin-bottom: 0px;
+}
+
+.why-choose-solutions .why-choose-solutions-image img {
+    box-shadow: 0px 0px 15px 0px #32257a;
+    border-radius: 5%;
+}
+
+/* ========================= /Why choose section end ========================= */
+
+/* ======================================= /solutions SECTION CSS END ======================================= */
